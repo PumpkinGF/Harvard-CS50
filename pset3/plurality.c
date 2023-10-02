@@ -78,7 +78,7 @@ bool vote(string name)
             return true; // this is a bool function
         }
     }
-    return false;
+    return false;  // only if none of i is true, return false
 }
 
 // Print the winner (or winners) of the election
